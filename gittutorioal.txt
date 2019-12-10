@@ -34,3 +34,13 @@ git config --global -e
 CENTRALIZED REPOSITORY
 git remote add origin "https://github.com/ahaahmed/gitTutorial.git"
 git pull origin master
+
+git push origin master
+
+BRANCH
+git branch  -> branch list
+create branch
+git branch a-branch
+git branch b-branch
+
+
