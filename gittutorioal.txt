@@ -43,4 +43,17 @@ create branch
 git branch a-branch
 git branch b-branch
 
+from b-branch
+git push origin b-branch
 
+change to master
+git checkout master
+git merge master b-branch
+git push orign master
+
+
+revert
+from add
+git reset HEAD TestFile
+from commit
+git reset HEAD~ TestFile
