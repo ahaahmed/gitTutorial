@@ -1,0 +1,36 @@
+Git
+git config -l
+git config --list
+
+git config --global user.nam "Ahmed, Abul"
+git config --global user.email "aahmed@msn.com"
+
+c:\temp\gitprojects
+md firstproject
+ls -las
+
+git init
+
+git add . or file name
+git commit -m "First Commit"
+git status
+
+
+to delete
+delete the file in windows
+git add .
+git commit
+
+git log
+
+git dif
+git dif --staged
+
+git config --global core.editor "\"C:\Program Files (x86)\npp.6.9.1.bin\notepad++.exe\""
+
+cat ~/.gitconfig
+git config --global -e
+
+CENTRALIZED REPOSITORY
+git remote add origin "https://github.com/ahaahmed/gitTutorial.git"
+git pull origin master
