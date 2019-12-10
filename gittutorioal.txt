@@ -43,4 +43,8 @@ create branch
 git branch a-branch
 git branch b-branch
 
-
+revert
+from add
+git reset HEAD TestFile
+from commit
+git reset HEAD~ TestFile
